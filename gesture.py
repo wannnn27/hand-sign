@@ -156,7 +156,7 @@ while True:
 
     cv2.imshow("Gesture Recognition", frame)
 
-    if cv2.waitKey(1) & 0xFF == 27:  # ESC kelua
+    if cv2.waitKey(1) & 0xFF == 27:  
         break
 
 cap.release()
